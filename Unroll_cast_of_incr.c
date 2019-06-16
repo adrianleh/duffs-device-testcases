@@ -6,7 +6,7 @@ long* alloc(long n) {
     return x;
 }
 int main() {
-    long l;
+    long l = 2;
     long* c = alloc(l);
     for(int i = 0; i < 17; i += (int) *c) {
         printf("a\n");
