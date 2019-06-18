@@ -3,11 +3,11 @@ int n(int n) {
     return n;
 }
 int main() {
-    for(int i = 0; i < 17; ++i) {
+    for(int i = 0; i < 18; ++i) {
         puts("b");
-        if(i > 13) {
+        if(i > 16) {
             while(!0) {
-                puts("a");
+                printf("%d\n", i);
             }
         }
     }
