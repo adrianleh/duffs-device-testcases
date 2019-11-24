@@ -2,6 +2,6 @@
 
 int main() {
     for(int i = 5; i < 17; ++i) {
-        puts("a");
+        printf("%d\n",i );
     }
 }

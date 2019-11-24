@@ -1,9 +1,9 @@
 #include <stdio.h>
-int n(int n) {
+long n(long n) {
     return n;
 }
 int main() {
-    for(int i = 0; i < n(17); i+=3) {
+    for(int i = 0; i < n(1l << 35); i += n(1l << 33)) {
         printf("a\n");
     }
 }
